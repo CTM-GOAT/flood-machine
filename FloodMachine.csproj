@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>FM.ico</ApplicationIcon>
+    <Version>0.0.1</Version>
+    <Authors>alexmagee1</Authors>
+    <Product />
+    <Company />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WindowsAPICodePack-Core" Version="1.1.2" />
+    <PackageReference Include="WindowsAPICodePack-ExtendedLinguisticServices" Version="1.1.1" />
+    <PackageReference Include="WindowsAPICodePack-Sensors" Version="1.1.1" />
+    <PackageReference Include="WindowsAPICodePack-Shell" Version="1.1.1" />
+    <PackageReference Include="WindowsAPICodePack-ShellExtensions" Version="1.1.1" />
+  </ItemGroup>
+
+</Project>
